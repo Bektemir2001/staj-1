@@ -8,7 +8,7 @@ export default createStore({
       authorised: false,
       loggedIn: localStorage.getItem('loggedIn') != null,
       authWindowOpened: false,
-      url: 'https://eda2-178-217-174-2.in.ngrok.io',
+      url: 'http://127.0.0.1:8000',
       isEditModalOpened: false,
       isCartOpened: false,
       isModalOpened: false,
